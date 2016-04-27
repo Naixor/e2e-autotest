@@ -1,0 +1,19 @@
+{
+  "name": "e2e-istanbul-page",
+  "version": "0.0.0",
+  "description": "none",
+  "scripts": {
+    "test": "mocha spec/"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-webdriver": "^1.1.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-istanbul": "^0.3.0",
+    "grunt-jsbeautifier": "^0.2.10",
+    "selenium-webdriver": "^2.42.1"
+  }
+}
