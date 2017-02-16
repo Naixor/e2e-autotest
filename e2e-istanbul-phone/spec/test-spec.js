@@ -12,9 +12,9 @@ chai.use(chaiWebdriver(driver));
 
 var expect = chai.expect;
 
-var url = 'http://yf-model-stream-tm-a00024.yf01.baidu.com:8003/s?tn=iphone&sid=100614&word=160_1:1017,3028';
+var url = 'your https url';
 
-describe('160_1:1017,3028 page', function() {
+describe('page', function() {
     this.timeout(60 * 1000);
     before((done) => {
         driver.manage().window().setSize(375, 627);
